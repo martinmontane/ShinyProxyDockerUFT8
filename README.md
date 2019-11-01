@@ -1,5 +1,6 @@
-# Shinyproxy in Docker
+# Shinyproxy dockerizado
 
-This repository contains a dockerfile for [Shinyproxy](https://www.shinyproxy.io). It is used in my [personal-server](), see there for further deployment details. Pull the docker container using `seabbs/shinyproxy-in-docker`. Mount an `application.yml` to `/opt/shinyproxy/app_yml` in order to customise the instance. 
+Este repositorio consiste en un Dockerfile para [Shinyproxy](https://www.shinyproxy.io), una versión de código abierto del servicio de shinyapps.io.
+El Dockerfile es realmente simple, copia una imagen de los desarrolladores de shinyproxy y actualiza la versión a 2.0.2. Lo más importante es que se incluyen algunas líneas para hacer compatible al servidor con el encoding UTF-8
 
-Currently Shinyproxy `1.1.0` is used as `2.0.0` contains breaking changes and appears to have some bugs.
+Consultas a martinmontaneb@gmail.com
