@@ -11,7 +11,7 @@ ENV LANGUAGE es_AR:es:en_US:en
 ENV LC_ALL es_AR.UTF-8
 
 RUN mkdir -p /opt/shinyproxy/
-RUN wget https://www.shinyproxy.io/downloads/shinyproxy-2.3.0.jar -O /opt/shinyproxy/shinyproxy.jar
+RUN wget https://www.shinyproxy.io/downloads/shinyproxy-2.2.2.jar -O /opt/shinyproxy/shinyproxy.jar
 
 WORKDIR /opt/shinyproxy/
 RUN mkdir app_yml
